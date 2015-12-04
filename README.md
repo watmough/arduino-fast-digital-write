@@ -10,28 +10,29 @@ Basically you have to replace the Arduino commands with true c commands, which I
 {Port} and {Portnumber} are the ID's from the pins on the ATmega328, which are used in the Arduino UNO and Arduino Nano v3.
 Which port is which index is mapped here:
 
-Arduino Pin | Port | Portnumber
-------------|------|-----------
-Pin 0		|D     |0
-Pin 1		|D	   |1	 
-Pin 2		|D     |2
-Pin 3		|D     |3
-Pin 4		|D     |4
-Pin 5		|D     |5
-Pin 6		|D     |6
-Pin 7		|D     |7
-Pin 8		|B     |0
-Pin 9		|B     |1
-Pin 10		|B     |2
-Pin 11		|B     |3
-Pin 12		|B     |4
-Pin 13		|B     |5
+Arduino Pin | {Port} | {Portnumber}
+------------|--------|-------------
+Pin 0		|D       |0
+Pin 1		|D	     |1	 
+Pin 2		|D       |2
+Pin 3		|D       |3
+Pin 4		|D       |4
+Pin 5		|D       |5
+Pin 6		|D       |6
+Pin 7		|D       |7
+Pin 8		|B       |0
+Pin 9		|B       |1
+Pin 10		|B       |2
+Pin 11		|B       |3
+Pin 12		|B       |4
+Pin 13		|B       |5
 
 As an example, if you want to turn on pin 13, you have to write:
 **PORTB |= _BV(PORTB5);**
+
 And if you want to turn it of you have to write:
 **PORTB &= ~_BV(PORTB5);**
 
 For further information, please visit my blog:
 
---- currently no link ---
+https://deloarts.wordpress.com/2015/12/04/fast-digital-write/
