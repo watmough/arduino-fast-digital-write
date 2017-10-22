@@ -27,11 +27,8 @@ Pin 11		|B       |3
 Pin 12		|B       |4
 Pin 13		|B       |5
 
-As an example, if you want to turn on pin 13, you have to write:
-**PORTB |= _BV(PORTB5);**
-
-And if you want to turn it of you have to write:
-**PORTB &= ~_BV(PORTB5);**
+To turn on pin 13 use `PORTB |= _BV(PORTB5);`  
+And to turn it off use `PORTB &= ~_BV(PORTB5);`
 
 For further information, please visit my blog:
 
