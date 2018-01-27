@@ -1,4 +1,7 @@
 # Fast Digital Write
+
+## 1 Description
+
 This script shows you how you can access the Arduino's pins faster than with the standard command (digitalWrite()).
 For this you only need your Arduino (I've used the Nano v3) and your PC or Mac.
 
@@ -30,6 +33,23 @@ Pin 13		|B       |5
 To turn on pin 13 use `PORTB |= _BV(PORTB5);`  
 And to turn it off use `PORTB &= ~_BV(PORTB5);`
 
-For further information, please visit my blog:
+For further information, please visit my website:
 
-https://deloarts.wordpress.com/2015/12/04/fast-digital-write/
+- [English](http://deloarts.com/de/scripts/arduino/fast-digital-write)
+- [German](http://deloarts.com/de/scripts/arduino/fast-digital-write)
+
+## 2 License
+
+This project is licensed under the GNU GPLv3 open source license. Thus anybody is allowed to copy and modify the source code, provided all changes are open source too and the author is in knowledge of all done changes. This can happen either via eMail or directly on GitHub, in other words at this repository.
+
+## 3 Disclaimer
+
+I am not responsible for anything in conjunction with this project, including bugs, failure, fire, harm of equipment and harm of persons. Reasonably foreseeable misapplication:
+
+- Bug in the code
+- Failure of used parts due to a bug in the code or a wrong wiring diagram, including a wrong design.
+- Fire due to a wrong wiring diagram, including a wrong design.
+- Harm of equipment, meaning third party parts (cameras, flashes, etc.) due to a bug in the code or a wrong wiring diagram, including a wrong design.
+- Harm of persons due to any failure of the system, a wrong wiring diagram or a wrong behaviour.
+
+**It is your own responsibility to use these contents**. Be careful, this project includes lethal electrical voltage. Put yourself in knowledge about the risks before you start with this project.
