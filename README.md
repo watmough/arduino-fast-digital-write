@@ -1,4 +1,4 @@
-# Fast Digital Write
+# Arduino: Fast Digital Write
 
 ## 1 Description
 
